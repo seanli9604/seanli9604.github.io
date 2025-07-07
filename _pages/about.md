@@ -1,42 +1,21 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome To My Website!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+Hi, I'm Sean. Currently, I am a PhD graduand and a recipient of the [Forrest Research Foundation Scholarship](https://forrestresearch.org.au/profiles/wei-ming-sean-li/) at the University of Western Australia, working in the School of Molecular Sciences. My research is in the general area of "cheminformatics", and can be most succinctly described as "computational mass spectral interpretation". Basically, I apply [graph theory](https://en.wikipedia.org/wiki/Graph_theory) to construct mathematical models, allowing one to convert the problem of "interpreting a mass spectrum" into a set of formal computational problems, which I then solve using various algorithmic and machine learning techniques. The goal of doing this is to increase both the speed and reliability of compound identification from mass spectrometry, with the end goal of making it possible to identify compounds that cannot be found in a spectral library. Right now, I am also at the very early stages of founding a startup concerning this topic, by directly using the algorithms and general expertise I have developed over my PhD to hopefully change how mass spectra are analysed in the future. 
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
-
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
+Why This Website?
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I've always enjoyed writing, specifically essays and miscellaneous non-fiction. However, academic writing requires a degree of polish that frustrates me, and in any case I would like to talk about things *outside* of my research specifically. So, starting a blog is almost a no-brainer. Unfortunately, my PhD was all-consuming, to the point where I just kept on putting it off. Now that I am finally done, I would like to get started once and for all. Not to mention, this page makes it easy for me to aggregate personal information (e.g. academic papers, startup-related info, personal essays) all in one spot. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Another reason why I specifically value semi-formal technical/academic writing is that they fill an important unmet niche. By definition, academic publications (outside of e.g. reviews, which are more circumscribed) must contain novel research assessed as significant by a panel of anonymised reviewers. On the other hand, textbooks or online resources (e.g. Wikipedia) constitute comprehensive summaries of very well-known topics. However, self-contained *summaries* or re-interpretation of specific topics, or even brief presentations of technically novel (but insufficiently so for publication), can be **extremely** useful, and I have personally significantly benefitted from them during my PhD. These pieces of writing though are somewhat marginalised though, and end up scattered throughout technical forums and websites (e.g. StackExchange), as well as personal blogs. I guess *technically* I'm not solving this problem by just putting these on a personal blog myself, but nonetheless I hope I can make this problem clearer and highlight the usefulness and informativeness of this form of writing by doing so. 
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
+Note:
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+All opinions contained within any part of this website reflect my own and solely my own, and should not in any way be interpreted as ones held by any institutions, organisations or agencies that I am currently or have previously been affiliated with.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Testing 123**
+This website was created by modifying the [Academic Pages template](https://github.com/academicpages/academicpages.github.io), I would like to acknowledge the ones that made and contributed to this template. 
