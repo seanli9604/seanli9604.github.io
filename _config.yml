@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Sean Li"
 title_separator          : "-"
 name                     : &name Sean Li"
 description              : &description "personal description"
@@ -22,10 +22,10 @@ repository               : "seanli9604/seanli9604.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "sean-fishing.jpeg"
   name             : "Sean Li"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD Graduand (Cheminformatics/Computational Mass Spectrometry)"
   location         : "Perth, Australia"
   employer         : "University of Western Australia"
   uri              : # URL
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
