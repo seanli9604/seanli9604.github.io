@@ -11,54 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Chemistry (Computational Mass Spectrometry), University of Western Australia, 2025 (expected)
+* B.Phil (Hons), Chemistry and Pharmacology (Chemistry Honours), University of Western Australia, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Ph.D Candidate (2021-2025)
+  * University of Western Australia (with scholarship provided by the Forrest Research Foundation)
+  * Duties includes: Conduct scientific research and communicate results via publishing of international-level research articles under limited supervision
+  * Supervisor: Dr. Dylan Jayatilaka (primary Ph.D supervisor)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Laboratory Demonstrator
+  * University of Western Australia
+  * Duties includes: Giving pre-lab talks to first and second year undergraduate chemistry students, supervising and assisting students with practical lab-based learning, marking student lab reports
+  * Supervisor: A/Prof. Dino Spagnoli
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* This section is under construction! 
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
